@@ -1,0 +1,57 @@
+import { StyleSheet } from "react-native";
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    position: "relative",
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+    resizeMode: "cover",
+    position: "relative",
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  text: {
+    position: "absolute",
+    width: 339,
+    height: 60,
+    top: 671,
+  },
+  btnIniciarS: {
+    position: "absolute",
+    width: 100,
+    height: 40,
+    top: 740,
+    borderRadius: 15,
+    backgroundColor: "#FFFFFF",
+  },
+  signUpText: {
+    position: "relative",
+    textAlign: "center",
+    color: "#fff",
+    fontFamily: "Roboto",
+    fontStyle: "normal",
+    fontWeight: "400",
+    fontSize: 12,
+    lineHeight: 15,
+  },
+  viewTextBottom: {
+    position: "relative",
+    top: 370,
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "row",
+  },
+  signUpLink: {
+    textAlign: "center",
+    color: "#D444DB",
+    fontFamily: "Roboto",
+    fontStyle: "normal",
+    fontWeight: "400",
+    fontSize: 12,
+    lineHeight: 15,
+    textDecorationLine: "underline",
+  },
+});
